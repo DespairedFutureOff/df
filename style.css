@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Futura";
+    src: url("fonts/futura-webfont.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/*HEADER*/
+header{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+	background: linear-gradient(#56b0ef, #0d172a);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(240, 195, 0);
+}
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #0d172a;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    font-size: 175%;
+}
+nav li a {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #add8e6;
+    color: black;
+}
+
+.active{
+	background-color: #45d6ab;
+}
+
+.logo{
+    width:30%;
+}
+
+:root{
+	--navheight: 30px;
+}
+
+/*BODY*/
+body,ul{
+	margin: 0;
+	padding: 0;
+	background-color: #0D172A;
+    font-family: "Futura", serif;
+}
+.accueil2{
+	display:flex;
+	width:100%;
+	justify-content: center;
+}
+.accueil{
+	width:60%;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+.accueil p{
+	color: white;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    font-size: 250%;
+	text-align: center;
+}
+
+.acceschap{
+	background-color: #0d172a;
+    box-align: center;
+    text-align: center;
+    border: solid;
+    width: 180px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+	font-family: "Futura";
+	color: white;
+	font-size: 200%;
+}
+input[type="submit"]:hover {
+    background-color: #4caf50;
+    color: black;
+    border: solid;
+    border-radius: 10px;
+}
+
+/*WIKI*/
+.listechap{
+    font-size: 140%;
+}
+.listechap a{
+    color:white;
+    text-decoration: none;
+}
+.listechap a:hover{
+    color:rgb(240, 195, 0);
+}
+.datechap{
+    float:right;
+    font-size: 140%;
+}
+.wiki{
+    width:1000px;
+    color:white;
+    font-size: 120%;
+	box-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.statut {
+    background-color: #4caf50;
+    font-size: 60%;
+    box-align: center;
+    text-align: center;
+    border: solid;
+    width: 70px;
+    border-radius: 10px;
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
