@@ -139,3 +139,149 @@ input[type="submit"]:hover {
     color: white;
     text-decoration: none;
 }
+
+/* PERSONNAGES */
+.participants table{
+    color:white;
+    font-size: 170%;
+    background: linear-gradient(red, black);
+    border: 2px solid darkred;
+    
+}
+.participants table td{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+.participants table td:hover{
+    border: 2px yellow solid;
+}
+table td a{
+    color:white;
+}
+.participants img{
+    width:200px;
+}
+.wheel table{
+    color:white;
+    font-size: 170%;
+    background: linear-gradient(green, black);
+    border: 2px solid darkgreen;
+}
+.wheel table td{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+.wheel img{
+    width:200px;
+}
+.wheel table td:hover{
+    border: 2px yellow solid;
+}
+.secondaires table{
+    color:white;
+    font-size: 170%;
+    background: linear-gradient(blue, black);
+    border: 2px solid darkblue;
+}
+.secondaires table td{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+.secondaires img{
+    width:200px;
+}
+.secondaires table td:hover{
+    border: 2px yellow solid;
+}
+.persocentr{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titre{
+    font-size: 150%;
+    color:white;
+    font-style: bold;
+}
+.présentation{
+    float: right;
+}
+.présentation table{
+    color:white;
+    font-size: 70%;
+    background-color: #0d0d0d;
+}
+.présentation a {
+    color:#ADD8E6;
+}
+.présentation a:hover {
+    color:rgb(240, 195, 0);
+}
+.perso img{
+    width: 300px;
+}
+.citation {
+    font-style: italic;
+    text-align: center;
+}
+.texte{
+    font-size: 80%;
+}
+
+.wiki p{
+    font-family: Arial;
+    font-size: 80%;
+}
+.wiki a{
+    color:#add8e6;
+    text-decoration: none;
+}
+.wiki a:hover{
+    color:rgb(240, 195, 0);
+}
+.entete{
+    font-size: 180%;
+    font-style: bold;
+    background: linear-gradient(to right,black, red, black);
+}
+.infos{
+    font-size: 120%;
+    background: linear-gradient(to right,black, red, black);
+}
+
+/* ANIMATIONS INFOS */
+.onglets{
+    cursor:pointer;
+    border:#0d172a;
+    background: linear-gradient(black, #232b2b, black);
+}
+.container-onglets{
+    display:flex;
+    justify-content: center;
+}
+.contenu{
+    opacity :0;
+    position: absolute;
+}
+.activeo{
+    background: linear-gradient(	#232b2b, #ADD8E6, #ADD8E6,#ADD8E6,#232b2b);
+    border:lightblue 1px solid;
+    color:black;
+}
+
+.activeContenu{
+    animation: fade 0.5s forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
