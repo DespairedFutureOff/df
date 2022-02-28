@@ -30,7 +30,7 @@ nav {
 nav li {
     display: inline;
     list-style: none;
-    font-size: 175%;
+    font-size: 250%;
 }
 nav li a {
     display: inline-block;
@@ -68,6 +68,7 @@ body,ul{
 	display:flex;
 	width:100%;
 	justify-content: center;
+    margin-bottom:40px;
 }
 .accueil{
 	width:60%;
@@ -89,7 +90,10 @@ body,ul{
     text-align: center;
     border: solid;
     width: 180px;
+    padding-top:20px;
+    padding-bottom:20px;
     border-radius: 10px;
+    margin-bottom: 80px;
 }
 input[type="submit"]{
 	font-family: "Futura";
@@ -119,16 +123,58 @@ input[type="submit"]:hover {
     font-size: 140%;
 }
 .wiki{
+    width:60%;
+    color:white;
+    font-size:120%;
+	box-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.persos{
+    width:60%;
+    color:white;
+    font-size:120%;
+    box-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.AAAAHHH{
+    width:50%;
+}
+.maisaled{
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:150%;
+}
+.asidelol hr{
+    color:white;
+}
+.h1oskour{
+    color:white;
+}
+.persos p{
+    font-family: Arial;
+}
+.persos a{
+    color:#add8e6;
+    text-decoration: none;
+}
+.persos a:hover{
+    color:rgb(240, 195, 0);
+}
+.aled{
     width:1000px;
     color:white;
-    font-size: 120%;
+    font-size: 170%;
 	box-align:center;
 	margin-left:auto;
 	margin-right:auto;
 }
 .statut {
     background-color: #4caf50;
-    font-size: 60%;
+    font-size: 50%;
     box-align: center;
     text-align: center;
     border: solid;
@@ -138,7 +184,18 @@ input[type="submit"]:hover {
     list-style: none;
     color: white;
     text-decoration: none;
+    margin:0;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
 }
+
+.responcon{
+    width:35%;
+}
+
 
 /* PERSONNAGES */
 .participants table{
@@ -146,7 +203,6 @@ input[type="submit"]:hover {
     font-size: 170%;
     background: linear-gradient(red, black);
     border: 2px solid darkred;
-    
 }
 .participants table td{
     text-align: center;
@@ -161,6 +217,7 @@ table td a{
 }
 .participants img{
     width:200px;
+    border: 4px solid goldenrod;
 }
 .wheel table{
     color:white;
@@ -207,7 +264,13 @@ table td a{
     color:white;
     font-style: bold;
 }
+.sous-titre{
+    font-size: 120%;
+}
 .présentation{
+    float: right;
+}
+.asidelol{
     float: right;
 }
 .présentation table{
@@ -234,7 +297,6 @@ table td a{
 
 .wiki p{
     font-family: Arial;
-    font-size: 80%;
 }
 .wiki a{
     color:#add8e6;
@@ -258,6 +320,8 @@ table td a{
     cursor:pointer;
     border:#0d172a;
     background: linear-gradient(black, #232b2b, black);
+    padding-left:5px;
+    padding-right:5px;
 }
 .container-onglets{
     display:flex;

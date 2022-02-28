@@ -1,0 +1,109 @@
+@media (max-width:1024px){
+    .logo{
+        width:80%;
+    }
+    nav li {
+        font-size: 170%;
+    }
+    nav li a {
+        padding: 4px 4px;
+        margin-top:4px;
+        margin-bottom:20px;
+    }
+    .datechap{
+        float:none;
+        font-size: 140%;
+    }
+    .responcon{
+        width:20%;
+        margin:0;
+        margin:20px;
+    }
+    .wiki{
+        width:auto;
+        padding-left:20px;
+        font-size:110%;
+    }
+    .statut{
+        padding-left:5px;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-right:5px;
+    }
+    .présentation{
+        float:right;
+    }
+    .titre{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .omg{
+        width:80%;
+    }
+    .container{
+        font-size:150%;
+        margin-left:0;
+    }
+    .asidelol{
+        float:inline-start;
+    }
+    .perso img{
+        width:390px;
+    }
+    .navigation{
+        font-size:140%;
+    }
+    .mais{
+        padding-left: 8px;
+    }
+    .aled{
+        width:100%;
+    }
+    .participants table{
+        max-width:100%;
+    }
+    .participants table td{
+        text-align: center;
+        width: 200px;
+        height: 150px;
+        font-size:90%;
+    }
+    .participants img{
+        width:100px;
+        border: 4px solid goldenrod;
+    }
+    .wheel table{
+        max-width:100%;
+    }
+    .wheel table td{
+        text-align: center;
+        width: 200px;
+        height: 150px;
+        font-size:90%;
+    }
+    .wheel img{
+        width:100px;
+        border: 4px solid goldenrod;
+    }
+    .wheel h1{
+        margin:0;
+    }
+    .secondaires table{
+        max-width:100%;
+    }
+    .secondaires table td{
+        text-align: center;
+        width: 200px;
+        height: 150px;
+        font-size:75%;
+    }
+    .secondaires img{
+        width:100px;
+        border: 4px solid goldenrod;
+    }
+    .secondaires h1{
+        margin:0;
+    }
+}
