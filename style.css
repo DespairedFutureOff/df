@@ -17,6 +17,7 @@ a:hover {
     text-decoration: underline;
     color: rgb(240, 195, 0);
 }
+
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -58,11 +59,13 @@ nav li a:hover {
 }
 
 /*BODY*/
+body{
+    font-family: "Futura", serif;
+}
 body,ul{
 	margin: 0;
 	padding: 0;
 	background-color: #0D172A;
-    font-family: "Futura", serif;
 }
 .accueil2{
 	display:flex;
@@ -348,4 +351,8 @@ table td a{
     to {
         opacity: 1;
     }
+}
+nav {
+    font-family:'Trebuchet MS';
+    font-weight: bold;
 }
