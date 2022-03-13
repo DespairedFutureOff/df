@@ -210,6 +210,11 @@ input[type="submit"]:hover {
     background: linear-gradient(red, black);
     border: 2px solid darkred;
 }
+.bordelmais{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .participants table td{
     text-align: center;
     width: 200px;
@@ -264,6 +269,65 @@ table td a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.calendrier{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.agenda table{
+    border: 3px solid lightblue;
+    font-size: 100%;
+    background-color: #0d0d0d;
+}
+.out{
+    color:grey;
+    background-color: #0d0d0d;
+}
+.agenda{
+    display:flex;
+    justify-content: center;
+}
+.calendrier td{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border:solid 1px gray;
+}
+.down td{
+    border-top:0px;
+}
+.calendrier .onglets{
+    font-size: 140%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jours td{
+    color:black;
+    background-color: lightblue;
+}
+.vide {
+    background-color: lightslategrey;
+}
+.up td{
+    border-bottom: 0px;
+}
+.complete{
+    background-color: #4caf50;
+}
+.complete a{
+    color:white;
+}
+.agenda a{
+    color:white;
+}
+.anniv{
+    background-color: darkorchid;
 }
 .titre{
     font-size: 150%;
@@ -335,7 +399,7 @@ table td a{
 }
 .contenu{
     opacity :0;
-    position: absolute;
+    display:none;
 }
 .activeo{
     background: linear-gradient(	#232b2b, #ADD8E6, #ADD8E6,#ADD8E6,#232b2b);
@@ -345,6 +409,8 @@ table td a{
 
 .activeContenu{
     animation: fade 0.5s forwards;
+    display:flex;
+    justify-content: center;
 }
 
 @keyframes fade {

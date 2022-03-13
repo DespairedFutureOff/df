@@ -1,0 +1,7 @@
+```
+-Ajout de la fiche personnage "Arya Diavolo"
+-Ajout du 3ème chapitre
+-Ajustements orthographiques sur le 1er et 2ème chapitre
+-Ajout de l'onglet "Chronologie" depuis le menu principal
+-Ajout de l'index "Arc de la Pierre de Londres" dans les fiches personnages
+```
