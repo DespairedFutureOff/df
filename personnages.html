@@ -2,88 +2,342 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="responsive.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despaired Future - Accueil</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon.png">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Despaired Future - Encyclopédie</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon.png">
 </head>
 
 <body>
     <header>
-        <img class="logo" src="img/logo.png" />
+        <section class="menu">
+            <span class="logopad"><img class="logo" src="img/logo.png" /></span>
+			<nav>
+				<section class="navbar">
+					<a href="index.html">Accueil</a>
+					<a href="infos.html">Infos</a>
+					<div class="maisaled"><a>Chapitres</a>
+						<div class="content">
+							<a href="cs.html">Corruption Stone (2022)</a>
+                            <a href="ht.html">Heaven's Time (TBA)</a>
+						</div>
+					</div>
+					<div class="maisaled"><a>Encyclopédie</a>
+						<div class="content">
+							<a href="personnages.html">Personnages</a>
+							<a href="especes.html">Espèces</a>
+							<a href="chronologie.html">Chronologie</a>
+							<a href="lieux.html">Lieux</a>
+							<a href="pouvoirs.html">Pouvoirs</a>
+						</div>
+					</div>
+				</section>
+			</nav>
+        </section>
     </header>
-    <nav>
-        <section>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li>
-                    <a href="synopsis.html">Synopsis</a>
-                </li>
-                <li>
-                    <a href="chapitres.html">Chapitres</a>
-                </li>
-                <li>
-                    <a href="personnages.html">Personnages</a>
-                </li>
-                <li>
-                    <a href="2019.html">Chronologie</a>
-                </li>
-            </ul>
-        </section>
-    </nav>
-    <section class="maisaled">
-        <h1 class="h1oskour">Personnages</h1>
-        <hr class="AAAAHHH">
-    </section>
-    <section class="persos">
-        <section class="personnages">
-            <section class="persocentr">
-                <section class="participants">
-                    <TABLE>
-                        <TR>
-                            <TH colspan="3">Participants à la "Résurrection"</TH>
-                        </TR>
-                        <TR>
-                            <TD><a href="personnages/aiden.html"><img src="img/aiden_2019.png"><br>Aiden Baker</a></TD>
-                            <TD><a href="personnages/marc.html"><img src="img/unknow.png"><br>Marc Dubois</a></TD>
-                            <TD><a href="personnages/achill.html"><img src="img/unknow.png"><br>Achill Wunderbar</a>
-                            </TD>
-                        </TR>
-                        <TR>
-                            <TD></TD>
-                            <TD><a href="personnages/arya.html"><img src="img/unknow.png"><br>Arya Diavolo</a>
-                            <TD></TD>
-                        </TR>
-                    </TABLE>
-                </section>
-                <br>
-                <section class="wheel">
-                    <TABLE>
-                        <TR>
-                            <TH colspan="3">Wheel Industries</TH>
-                        </TR>
-                        <TR>
-                            <TD><a href="personnages/wheel.html"><img src="img/unknow.png"><br>Bernhard Wheel</a></TD>
-                        </TR>
-                    </TABLE>
-                </section>
-                <br>
-                <section class="secondaires">
-                    <TABLE>
-                        <TR>
-                            <TH colspan="3">Personnages secondaires</TH>
-                        </TR>
-                        <TR>
-                            <TD><a href="personnages/emilie_baker.html"><img src="img/unknow.png"><br>Emilie Baker</a>
-                            </TD>
-                            <TD><a href="personnages/alphonse_baker.html"><img src="img/unknow.png"><br>Alphonse
-                                    Baker</a></TD>
-                        </TR>
-                    </TABLE>
-                </section>
-            </section>
-        </section>
+	<section class="warning">
+		<h1>ATTENTION !</h1>
+		<p>Les éléments qui suivent contiennent des spoilers pour Despaired Future : Corruption Stone. Soyez sûr
+			d'avoir lu ce volume avant de consulter les informations ci-dessous.</p>
+	</section>
+	<section class="banniereperso">
+		<h1>PERSONNAGES</h1>
+	</section>
+	<section class="Bdisam">
+		<button class="disamB" id="togg1">Participants à la Résurrection</button>
+		<button class="disamB" id="togg2">Wheel Industries</button>
+		<button class="disamB" id="togg3">Despaired Future</button>
+		<button class="disamB" id="togg4">Famille d'Aiden</button>
+		<button class="disamB" id="togg5">Famille d'Achill</button>
+		<button class="disamB" id="togg6">Alliés</button>
+		<button class="disamB" id="togg7">Antagonistes</button>
+		<button class="disamB" id="togg8">Personnages secondaires</button>
+	</section>
+	<section id='d1' class="disam1">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/aiden.html"><img src="img/unknow2.png">
+						<p>AIDEN</p>
+						<p class="details">Nom complet : Aiden Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/marc.html"><img src="img/unknow2.png">
+						<p>MARC</p>
+						<p class="details">Nom complet : Marc Dubois</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/achill.html"><img src="img/unknow2.png">
+						<p>ACHILL</p>
+						<p class="details">Nom complet : Achill Von Wunderbar</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/arya.html"><img src="img/unknow2.png">
+						<p>ARYA</p>
+						<p class="details">Nom complet : Arya Diavolo</p>
+					</a></span>
+			</section>
+		</section>
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/pablo.html"><img src="img/unknow2.png">
+						<p>PABLO</p>
+						<p class="details">Nom complet : Pablo Lewis</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/william.html"><img src="img/unknow2.png">
+						<p>WILLIAM</p>
+						<p class="details">Nom complet : William Smith</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/sophia.html"><img src="img/unknow2.png">
+						<p>SOPHIA</p>
+						<p class="details">Nom complet : Sophia Anderson</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/viktor.html"><img src="img/unknow2.png">
+						<p>VIKTOR</p>
+						<p class="details">Nom complet : Vitkor Vaudruche</p>
+					</a></span>
+			</section>
+		</section>
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/andrei.html"><img src="img/unknow2.png">
+						<p>ANDREI</p>
+						<p class="details">Nom complet : Andrei Laptar</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/maria.html"><img src="img/unknow2.png">
+						<p>MARIA</p>
+						<p class="details">Nom complet : Maria Constelli</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/jules.html"><img src="img/unknow2.png">
+						<p>JULES</p>
+						<p class="details">Nom complet : Jules Constelli</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d2" class="disam2">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/wheel.html"><img src="img/unknow2.png">
+						<p>WHEEL</p>
+						<p class="details">Nom complet : Bernhard Wheel</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/alicia.html"><img src="img/unknow2.png">
+						<p>ALICIA</p>
+						<p class="details">Nom complet : Alicia Wheel</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/armand.html"><img src="img/unknow2.png">
+						<p>ARMAND</p>
+						<p class="details">Nom complet : Armand Wheel</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/myria.html"><img src="img/unknow2.png">
+						<p>MYRIA</p>
+						<p class="details">Nom complet : Myria Wheel</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d3" class="disam3">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/foxtrot.html"><img src="img/unknow2.png">
+						<p>FOXTROT</p>
+						<p class="details">Nom complet : Inconnu</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/krysto.html"><img src="img/unknow2.png">
+						<p>KRYSTO</p>
+						<p class="details">Nom complet : Inconnu</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/ace.html"><img src="img/unknow2.png">
+						<p>ACE</p>
+						<p class="details">Nom complet : Aiden Hill</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/echo.html"><img src="img/unknow2.png">
+						<p>ECHO</p>
+						<p class="details">Nom complet : Inconnu</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d4" class="disam4">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/aiden.html"><img src="img/unknow2.png">
+						<p>AIDEN</p>
+						<p class="details">Nom complet : Aiden Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/emilie.html"><img src="img/unknow2.png">
+						<p>EMILIE</p>
+						<p class="details">Nom complet : Emilie Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/alphonse.html"><img src="img/unknow2.png">
+						<p>ALPHONSE</p>
+						<p class="details">Nom complet : Alphonse Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/marc.html"><img src="img/unknow2.png">
+						<p>MARC</p>
+						<p class="details">Nom complet : Marc Dubois</p>
+					</a></span>
+			</section>
+		</section>
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/arya.html"><img src="img/unknow2.png">
+						<p>ARYA</p>
+						<p class="details">Nom complet : Arya Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/fey.html"><img src="img/unknow2.png">
+						<p>FEY</p>
+						<p class="details">Nom complet : Felicia Baker</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d5" class="disam5">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/achill.html"><img src="img/unknow2.png">
+						<p>ACHILL</p>
+						<p class="details">Nom complet : Achill Von Wunderbar</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/lena.html"><img src="img/unknow2.png">
+						<p>LÉNA</p>
+						<p class="details">Nom complet : Léna Von Wunderbar</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/karla.html"><img src="img/unknow2.png">
+						<p>KARLA</p>
+						<p class="details">Nom complet : Karla Von Wunderbar</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/dwan.html"><img src="img/unknow2.png">
+						<p>DWAN</p>
+						<p class="details">Nom complet : Dwan</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d6" class="disam6">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/eliott.html"><img src="img/unknow2.png">
+						<p>ELIOTT</p>
+						<p class="details">Nom complet : Eliott Anderson</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/moore.html"><img src="img/unknow2.png">
+						<p>MOORE</p>
+						<p class="details">Nom complet : Jack Moore</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/dimitri.html"><img src="img/unknow2.png">
+						<p>DIMITRI</p>
+						<p class="details">Nom complet : Dimitri</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d7" class="disam7">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/wheel.html"><img src="img/unknow2.png">
+						<p>WHEEL</p>
+						<p class="details">Nom complet : Bernhard Wheel</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/foxtrot.html"><img src="img/unknow2.png">
+						<p>FOXTROT</p>
+						<p class="details">Nom complet : Inconnu</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section id="d8" class="disam8">
+		<section class="personnages">
+			<section class="personnage">
+				<span><a href="personnages/emilie.html"><img src="img/unknow2.png">
+						<p>EMILIE</p>
+						<p class="details">Nom complet : Emilie Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/alphonse.html"><img src="img/unknow2.png">
+						<p>ALPHONSE</p>
+						<p class="details">Nom complet : Alphonse Baker</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/francis.html"><img src="img/unknow2.png">
+						<p>FRANCIS</p>
+						<p class="details">Nom complet : Francis Dubois</p>
+					</a></span>
+			</section>
+			<section class="personnage">
+				<span><a href="personnages/dimitri.html"><img src="img/unknow2.png">
+						<p>DIMITRI</p>
+						<p class="details">Nom complet : Dimitri</p>
+					</a></span>
+			</section>
+		</section>
+	</section>
+	<section class="end"></section>
 </body>
+<footer>
+	<section class="menu">
+		<span class="logopad"><img class="logo2" src="img/logo.png" /></span>
+		<nav>
+			<section class="navbar2">
+				<a href="remerciements.html">Remerciements</a>
+				<a class="nope">•</a>
+				<a href="infos.html">Infos</a>
+				<a class="nope">•</a>
+				<a href="discord.html">Discord</a>
+				<a class="nope">•</a>
+				<a href="contact.html">Contact</a>
+			</section>
+		</nav>
+	</section>
+</footer>
+<script src="app.js"></script>

@@ -1,352 +1,569 @@
 @font-face {
-    font-family: "Futura";
-    src: url("fonts/Futura.ttf");
+	font-family: "Futura";
+	src: url("fonts/Futura.ttf");
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 @font-face {
-    font-family: "Trebuchet MS";
-    src: url("fonts/Trebuchet.ttf");
+	font-family: "Trebuchet MS";
+	src: url("fonts/Trebuchet.ttf");
 }
 /*HEADER*/
 header{
-    display:flex;
-    justify-content: center;
-    width:100%;
-    align-items: center;
-    flex-wrap: wrap;
-	background: linear-gradient(#56b0ef, #0d172a);
+	background: black;
 }
-a:hover {
-    text-decoration: underline;
-    color: rgb(240, 195, 0);
+footer{
+	background: black;
+	padding-top: 30px;
+	padding-bottom : 30px;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
-    overflow: hidden;
-    background-color: #0d172a;
-}
-nav {
-    text-align: center;
-}
-nav li {
-    display: inline;
-    list-style: none;
-    font-size: 250%;
-}
-nav li a {
-    display: inline-block;
-    list-style: none;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav li a:hover {
-    background-color: #add8e6;
-    color: black;
-}
-
 .active{
 	background-color: #45d6ab;
 }
 
 .logo{
-    width:30%;
+	width:50%;
 }
-
+.logopad{
+	padding-left: 125px;
+	padding-top: 30px;
+	padding-bottom : 30px;
+}
+.logo2{
+	width:30%;
+}
 :root{
 	--navheight: 30px;
 }
-
+.menu{
+	display:flex;
+	justify-content: space-between;
+}
+nav {
+	font-family:'Trebuchet MS';
+	font-weight: bold;
+}
+.navbar{
+	display:flex;
+	padding-right: 75px;
+}
+.navbar a{
+	text-decoration: none;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	font-size: 20px;
+}
+.navbar a:hover{
+	color: rgb(240, 195, 0);
+}
+.maisaled{    
+	padding-top: 50px;
+	position: relative;
+	display: inline-block;
+}
+  .content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  .content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  .maisaled:hover .content {display: block;}
+.navbar2{
+	display:flex;
+	padding-right: 75px;
+}
+.navbar2 .nope{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar2 a{
+	text-decoration: none;
+	color:white;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 50px;
+	font-size: 15px;
+}
+.navbar2 a:hover{
+	color: rgb(240, 195, 0);
+}
+.flèche{
+	text-align: center;
+}
 /*BODY*/
 body{
-    font-family: "Futura", serif;
+	font-family: "Futura", serif;
 }
 body,ul{
 	margin: 0;
 	padding: 0;
-	background-color: #0D172A;
+	background-color: rgb(27,29,31);
 }
-.accueil2{
+.slide1{
 	display:flex;
-	width:100%;
-	justify-content: center;
-    margin-bottom:40px;
+	justify-content: space-between;
+	background: linear-gradient(to right,rgb(20, 52, 164),rgb(100, 149, 237));
+	padding-top: 75px;
+	padding-bottom: 150px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
-.accueil{
-	width:60%;
+.banniereperso{
 	display:flex;
-	flex-direction: column;
-	align-items:center;
 	justify-content: center;
+	background: linear-gradient(to right,rgb(20, 52, 164),rgb(100, 149, 237));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
 }
-.accueil p{
-	color: white;
-    text-shadow: 0.05em 0.05em 0.1em black;
-    font-size: 250%;
+.banniereperso h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannierepouv{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,rgb(145, 65, 1),rgb(240, 243, 50));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.bannierepouv h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannierechap{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,rgb(7, 73, 5),rgb(34, 233, 34));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.bannierechap h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannierecs{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,rgb(105, 11, 11),rgb(204, 23, 23));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.bannierecs h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.banniereepoque{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,rgb(96, 28, 136),rgb(167, 131, 224));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.banniereepoque h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannieregroupe{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,#BF55EC,#BE90D4);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+	margin-top:150px;
+}
+.bannieregroupe h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannieregroupe2{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,#BF55EC,#BE90D4);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.bannieregroupe2 h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.banniereconst{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,#F9690E,#F5D76E);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+	margin-top:150px;
+}
+.banniereconst h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.bannierewiki{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,green,lime);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+.bannierewiki h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.slide1 h1{
+	font-size: 38px;
+	padding-top:75px;
+	color:white;
+}
+.slide1 p{
+	font-size:28px;
+	margin-right: 450px;
+	color:white;
+}
+.slide3{
+	display:flex;
+	justify-content: space-between;
+	background: linear-gradient(to right,rgb(6, 24, 78),rgb(123, 135, 167));
+	padding-top: 75px;
+	padding-bottom: 150px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.slide3 h1{
+	font-size: 38px;
+	padding-top:25px;
+	color:white;
+}
+.slide3 p{
+	font-size:28px;
+	margin-right: 450px;
+	color:white;
+}
+.couv2{
+	max-width: 400px;
+	padding-right:150px;
+	filter:drop-shadow(-30px 30px 4px rgba(0,0,0,0.2));
+}
+.couv{
+	max-width: 400px;
+	padding-right:150px;
+	filter:drop-shadow(30px -30px 4px rgba(0,0,0,0.2));
+}
+.couv3{
+	padding-top:75px;
+	max-width: 400px;
+	padding-right:150px;
+	filter:drop-shadow(30px -30px 4px rgba(0,0,0,0.2));
+}
+.lireinfos{
+	background-color: darkred;
+	box-align: center;
 	text-align: center;
-}
-
-.acceschap{
-	background-color: #0d172a;
-    box-align: center;
-    text-align: center;
-    border: solid;
-    width: 180px;
-    padding-top:20px;
-    padding-bottom:20px;
-    border-radius: 10px;
-    margin-bottom: 80px;
-}
-input[type="submit"]{
-	font-family: "Futura";
-	color: white;
-	font-size: 200%;
-}
-input[type="submit"]:hover {
-    background-color: #4caf50;
-    color: black;
-    border: solid;
-    border-radius: 10px;
-}
-
-/*WIKI*/
-.listechap{
-    font-size: 140%;
-}
-.listechap a{
-    color:white;
-    text-decoration: none;
-}
-.listechap a:hover{
-    color:rgb(240, 195, 0);
-}
-.datechap{
-    float:right;
-    font-size: 140%;
-}
-.wiki{
-    width:60%;
-    color:white;
-    font-size:120%;
-	box-align:center;
-	margin-left:auto;
-	margin-right:auto;
-}
-.persos{
-    width:60%;
-    color:white;
-    font-size:120%;
-    box-align:center;
-    margin-left:auto;
-    margin-right:auto;
-}
-.AAAAHHH{
-    width:50%;
-}
-.maisaled{
-    justify-content: center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    font-size:150%;
-}
-.asidelol hr{
-    color:white;
-}
-.h1oskour{
-    color:white;
-}
-.persos p{
-    font-family: Arial;
-}
-.persos a{
-    color:#add8e6;
-    text-decoration: none;
-}
-.persos a:hover{
-    color:rgb(240, 195, 0);
+	border: solid crimson;
+	width: 180px;
+	margin-top: 50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+	margin-bottom: 80px;
+	color:white;
+	font-size: 25px;
+	text-decoration: none;
 }
 .aled{
-    width:1000px;
-    color:white;
-    font-size: 170%;
-	box-align:center;
-	margin-left:auto;
-	margin-right:auto;
+	padding-bottom: 20px;
 }
-.statut {
-    background-color: #4caf50;
-    font-size: 50%;
-    box-align: center;
-    text-align: center;
-    border: solid;
-    width: 70px;
-    border-radius: 10px;
-    display: inline-block;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    margin:0;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;
+.lireinfos:hover{
+	color:rgb(240, 195, 0);
+	background-color: crimson;
+	border: solid darkred;
 }
-
-.responcon{
-    width:35%;
+.part2{
+	text-align: right;
 }
-
-
-/* PERSONNAGES */
-.participants table{
-    color:white;
-    font-size: 170%;
-    background: linear-gradient(red, black);
-    border: 2px solid darkred;
+.slide2{
+	display:flex;
+	justify-content: space-between;
+	background: linear-gradient(to right,rgb(102, 2, 252),rgb(220, 127, 236));
+	padding-top: 75px;
+	padding-bottom: 150px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
-.bordelmais{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.slide2 h1{
+	font-size: 38px;
+	padding-top:30px;
 }
-.participants table td{
-    text-align: center;
-    width: 200px;
-    height: 150px;
+.slide2 p{
+	font-size:28px;
+	margin-left: 450px;
 }
-.participants table td:hover{
-    border: 2px yellow solid;
+.corpswiki{
+	display:flex;
+	justify-content: space-between;
+	background: rgb(27,29,31);
+	padding-top: 75px;
+	padding-bottom: 150px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
-table td a{
-    color:white;
+.disamB{
+	border: solid 2px white;
+	background-color: #232b2b;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Futura";
+	letter-spacing: 1px;
 }
-.participants img{
-    width:200px;
-    border: 4px solid goldenrod;
+.disamB:hover{
+	color:darkred;
+	background-color: rgb(240, 195, 0);
+	cursor: pointer;
 }
-.wheel table{
-    color:white;
-    font-size: 170%;
-    background: linear-gradient(green, black);
-    border: 2px solid darkgreen;
+.disam1{
+	display:block;
 }
-.wheel table td{
-    text-align: center;
-    width: 200px;
-    height: 150px;
+.disam2{
+	display:none;
 }
-.wheel img{
-    width:200px;
+.disam3{
+	display:none;
 }
-.wheel table td:hover{
-    border: 2px yellow solid;
+.disam4{
+	display:none;
 }
-.secondaires table{
-    color:white;
-    font-size: 170%;
-    background: linear-gradient(blue, black);
-    border: 2px solid darkblue;
+.disam5{
+	display:none;
 }
-.secondaires table td{
-    text-align: center;
-    width: 200px;
-    height: 150px;
+.disam6{
+	display:none;
 }
-.secondaires img{
-    width:200px;
+.disam7{
+	display:none;
 }
-.secondaires table td:hover{
-    border: 2px yellow solid;
+.disam8{
+	display:none;
 }
-.persocentr{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.calendrier{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 100px;
-}
-.agenda table{
-    border: 3px solid lightblue;
-    font-size: 100%;
-    background-color: #0d0d0d;
-}
-.out{
-    color:grey;
-    background-color: #0d0d0d;
-}
-.agenda{
-    display:flex;
-    justify-content: center;
-}
-.calendrier td{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    border:solid 1px gray;
-}
-.down td{
-    border-top:0px;
-}
-.calendrier .onglets{
-    font-size: 140%;
-    padding-left: 10px;
-    padding-right: 10px;
+.wiki .chemin{
+	color:grey;
 }
 
-.jours td{
-    color:black;
-    background-color: lightblue;
+.personnage{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "Futura";
 }
-.vide {
-    background-color: lightslategrey;
+.personnage p{
+	margin:10px;
+	font-family: "Futura";
 }
-.up td{
-    border-bottom: 0px;
+.personnage a{
+	text-decoration: none;
+	color:white;
+	font-family: "Futura";
 }
-.complete{
-    background-color: #4caf50;
+.persochap{
+	font-family: "Futura";
+	color:white;
+	text-decoration: none;
 }
-.complete a{
-    color:white;
+.details{
+	font-size: 15px;
+	color:lightskyblue;
 }
-.agenda a{
-    color:white;
+.personnage a:hover{
+	color:rgb(240, 195, 0);
 }
-.anniv{
-    background-color: darkorchid;
+.personnage:hover{
+	background-color: #232b2b;
 }
-.titre{
-    font-size: 150%;
-    color:white;
-    font-style: bold;
+.personnage a:hover  .details{
+	color:rgb(240, 195, 0);
 }
-.sous-titre{
-    font-size: 120%;
+.groupe{
+	border:solid white 3px;
+	font-size: 35px;
+	text-align: center;
 }
-.présentation{
-    float: right;
+.groupe a{
+	text-decoration: none;
+	color:white;
 }
+.groupe a:hover{
+	color:rgb(240, 195, 0);
+}
+.groupes{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:75px;
+	padding-bottom:25px;
+	display:flex;
+	justify-content: space-between;
+}
+.constellations img{
+	width: 200px;
+}
+.constellation{
+	border:solid white 3px;
+	font-size: 35px;
+	text-align: center;
+}
+.constellation a{
+	text-decoration: none;
+	color:white;
+}
+.constellation a:hover{
+	color:rgb(240, 195, 0);
+}
+.constellations{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:75px;
+	padding-bottom:25px;
+	display:flex;
+	justify-content: space-between;
+}
+.groupes img{
+	width: 200px;
+}
+.mais{
+	display:flex;
+}
+.personnages{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:15px;
+	padding-bottom:25px;
+	display:flex;
+	justify-content: center;
+}
+.Bdisam{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:15px;
+	padding-bottom:25px;
+	display:flex;
+	justify-content: center;
+}
+.groupepres{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:75px;
+	padding-bottom:25px;
+	display:flex;
+	justify-content: space-between;
+	font-size: 25px;
+}
+.contenuwikigroupe{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:75px;
+	padding-bottom:25px;
+	color:white;
+	font-size: 38px;
+	letter-spacing: 4px;
+}
+.groupepres img{
+	width:400px;
+	padding-left: 250px;
+	max-width: 400px;
+}
+.personnages img{
+	width: 300px;
+}
+.groupepres h4{
+	font-size: 22px;
+}
+.groupepres h5{
+	font-size: 22px;
+}
+.warning{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right,red,rgb(217, 84, 84));
+	letter-spacing: 2px;
+	font-size: 20px;
+	color:white;
+	flex-direction: column;
+	padding-bottom: 25px;
+}
+.warning h1{
+	font-size: 38px;
+	letter-spacing: 4px;
+	padding-top:25px;
+}
+.groupepres{
+	display: flex;
+	align-items: center;
+	color:white;
+}
+.persopres{
+	display: flex;
+	color:white;
+	justify-content: center;
+}
+.infos{
+	display:flex;
+	align-items: center;
+}
+.infos h4{
+	padding-left:5px;
+	font-weight: unset;
+	letter-spacing: 1px;
+}
+.infos h5{
+	padding-left:5px;
+	letter-spacing: 2px;
+}
+.presgroupe{
+	padding-right: 350px;
+}
+.imgperso img{
+	height:300px;
+}
+
+/*TO CHANGE (CHAR. TABLE)*/
+
 .asidelol{
-    float: right;
+	float:right;
+	padding-right: 250px;
 }
 .présentation table{
     color:white;
-    font-size: 70%;
-    background-color: #0d0d0d;
+	font-size: 22px;
+	background-color:#232b2b;
+	width: 100%;
+	margin:none;
+	border:none;
+}
+.présentation ul{
+	background-color: #0d0d0d;
 }
 .présentation a {
     color:#ADD8E6;
@@ -354,74 +571,330 @@ table td a{
 .présentation a:hover {
     color:rgb(240, 195, 0);
 }
-.perso img{
-    width: 300px;
+.présentation img{
+	width:400px;
 }
-.citation {
-    font-style: italic;
-    text-align: center;
-}
-.texte{
-    font-size: 80%;
-}
-
-.wiki p{
-    font-family: Arial;
-}
-.wiki a{
-    color:#add8e6;
-    text-decoration: none;
-}
-.wiki a:hover{
-    color:rgb(240, 195, 0);
-}
-.entete{
-    font-size: 180%;
-    font-style: bold;
-    background: linear-gradient(to right,black, red, black);
-}
-.infos{
-    font-size: 120%;
-    background: linear-gradient(to right,black, red, black);
-}
-
-/* ANIMATIONS INFOS */
-.onglets{
-    cursor:pointer;
+.boutonannee{
+	cursor:pointer;
     border:#0d172a;
     background: linear-gradient(black, #232b2b, black);
     padding-left:5px;
     padding-right:5px;
 }
-.container-onglets{
-    display:flex;
-    justify-content: center;
+.annee a{
+	color:white;
 }
-.contenu{
-    opacity :0;
-    display:none;
+.annee{
+	display: flex;
+	justify-content: center;
 }
-.activeo{
-    background: linear-gradient(	#232b2b, #ADD8E6, #ADD8E6,#ADD8E6,#232b2b);
-    border:lightblue 1px solid;
-    color:black;
+.bannierewikip{
+	display:flex;
+	justify-content: center;
+	background: linear-gradient(to right,rgb(0, 0, 0),rgb(235, 7, 7),rgb(0, 0, 0));
+	letter-spacing: 1px;
+	margin:0;
 }
+.bannierewikip h1{
+	color:white;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.quote{
+	background-color: #ecebeb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-right: 165px;
+	font-size:23px;
+	line-height: 1em;
+	border-left: 10px solid rgb(64, 66, 194);
+	margin-bottom: 20px;
+}
+.quote .source{
+	color:rgb(121, 5, 5);
+	font-size:20px;
+}
+.quote p{
+	color:black;
+	font-style: italic;
+}
+.epoques{
+	border: solid 0px white;
+	background-color: #232b2b;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	display:inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:50%;
+	margin:0px;
+	font-family: "Futura";
+	letter-spacing: 1px;
+}
+.ongletsages{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 400px;
+	margin:0px;
+}
+.buttons{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	width:100%;
+}
+.epoques:hover{
+	color:darkred;
+	background-color: rgb(240, 195, 0);
+	cursor: pointer;
+}
+.pouvoirs{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	text-align: center;
+}
+.pouvoirs section{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.pouve{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.wiki p{
+    font-family: Arial;
+}
+.wiki .persochap{
+	font-family: "Futura";
+}
+.wiki .personnage a:hover .persochap{
+	color:rgb(240, 195, 0);
+}
+.wiki .details{
+	font-family: "Futura";
+}
+.wiki a{
+    text-decoration: none;
+	color:#add8e6;
+}
+.wiki a:hover{
+    color:rgb(240, 195, 0);
+}
+.wiki{
+    width:60%;
+    color:white;
+    font-size:120%;
+	padding-left: 250px;
 
-.activeContenu{
-    animation: fade 0.5s forwards;
-    display:flex;
-    justify-content: center;
 }
-
-@keyframes fade {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
+.asidelol a{
+	text-decoration: none;
 }
-nav {
-    font-family:'Trebuchet MS';
-    font-weight: bold;
+.navigation{
+	display:flex;
+	flex-direction: column;
+	border: solid 1px grey;
+	margin-top:10px;
+	margin-right: 800px;
+}
+.navigation h2{
+	text-align: center;
+}
+.sommaireB{
+	color:#add8e6;
+	background-color: #1b1d1f;
+	border:none;
+}
+.sommaireB:hover{
+	color:rgb(240, 195, 0);
+	cursor:pointer;
+}
+.sommaire{
+	display: flex;
+	text-align: left;
+	margin-left: 0px;
+}
+.sous-titre{
+	font-size: 140%;
+	padding-top: 5px;
+}
+.biologie h2{
+	color:white;
+	text-align: center;
+	background: linear-gradient(to right,rgb(0, 0, 0),rgb(235, 7, 7),rgb(0, 0, 0));
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+	margin:0px;
+	margin-top:20px;
+}
+.présentation table td{
+	border:none;
+	margin:0px;
+}
+.présentation table .light{
+	width:65%;
+	padding-left: 5px;
+	background-color: #667a7a;
+}
+.présentation table .light2{
+	padding-left: 5px;
+	width:79%;
+	background-color: #667a7a;
+}
+.présentation table img{
+	width:80px;
+	padding-top: 3px;
+	margin:0px;
+}
+.persopresentation h2{
+	color: #c03538;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 1em;
+    border-bottom: 2px solid #C12025;
+	border-left: 10px solid #C12025;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.persopresentation h3{
+	color: #1adb44;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 1em;
+    border-bottom: 2px solid #1adb44;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.persopresentation h4{
+	color: white;
+	padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 1em;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.entourage tr:hover{
+	color:darkred;
+	background-color: rgb(240, 195, 0);
+	cursor: pointer;
+}
+.entourage tr:hover .light2{
+	background-color: rgb(240, 195, 0);
+	cursor:default;
+}
+.entourage tr:hover .light2 a{
+	color:darkred;
+}
+.entourage tr:hover .light2 a:hover{
+	color:rgb(0, 139, 116);
+}
+.ongletsages img{
+	border: 1px, solid, #232b2b;
+}
+.entourage .light2{
+	border-left: solid 4px darkred;
+}
+.barres{
+	color:grey;
+	padding-right: 10px;
+}
+.wikisize{
+	margin-right: 140px;
+}
+.tba{
+	font-size: 25px;
+}
+.persopresentation .spec{
+	color: #9e72d8;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 1em;
+    border-bottom: 2px solid #9e72d8;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.end{
+	display:flex;
+	padding-bottom: 50px;
+}
+.ongletsages img{
+	border: solid 3px rgb(22, 21, 21);
+}
+.infos table{
+	border: solid 3px rgb(22, 21, 21);
+}
+.entourage table{
+	border: solid 3px rgb(22, 21, 21);
+}
+.date{
+	color: white;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 1em;
+    margin-bottom: 20px;
+	font-size: 35px;
+}
+.chapitres{
+	display:flex;
+	justify-content: space-between;
+	background-color: #0d0d0d;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.chapitres a{
+	color:white;
+}
+.chapitres:hover{
+	color:darkred;
+	background-color: rgb(240, 195, 0);
+	border-left: solid 5px darkred;
+}
+.chapitres:hover a{
+	color:darkred;
+}
+.chapitres:hover a:hover{
+	color:rgb(0, 139, 116);
+}
+.chapitres table{
+	width:100%;
+}
+.chapitres table .mid{
+	text-align: center;
+}
+.chapitres table .right{
+	text-align: right;
+}
+.chapitres table td{
+	width: 33%;
+}
+.fakea{
+	background: none;
+	color:#add8e6;
+	font-family:"Futura";
+	border:none;
+	font-size: 20px;
+	padding:0;
+	margin:0;
+}
+.fakea:hover{
+	cursor:pointer;
+	color:rgb(240, 195, 0);
+}
+.infos a{
+	color:white;
 }
