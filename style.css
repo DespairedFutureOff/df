@@ -444,6 +444,8 @@ ul {
 	padding-right: 10px;
 	font-family: "Futura";
 	letter-spacing: 1px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .disamB:hover {
@@ -909,7 +911,6 @@ ul {
 	color: white;
 	font-size: 120%;
 	padding-left: 250px;
-
 }
 
 .wiki2 {
@@ -1098,7 +1099,10 @@ ul {
 	margin-right: 140px;
 	padding-right: 10px;
 }
-
+.wikisizeh {
+	margin-right: 140px;
+	padding-right: 10px;
+}
 .tba {
 	font-size: 25px;
 }
