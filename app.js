@@ -6,6 +6,7 @@ let togg5 = document.getElementById("togg5");
 let togg6 = document.getElementById("togg6");
 let togg7 = document.getElementById("togg7");
 let togg8 = document.getElementById("togg8");
+let togg9 = document.getElementById("togg9");
 let d1 = document.getElementById("d1");
 let d2 = document.getElementById("d2");
 let d3 = document.getElementById("d3");
@@ -14,6 +15,7 @@ let d5 = document.getElementById("d5");
 let d6 = document.getElementById("d6");
 let d7 = document.getElementById("d7");
 let d8 = document.getElementById("d8");
+let d9 = document.getElementById("d9");
 togg1.addEventListener("click", () => {
     if(getComputedStyle(d1).display != "none"){
       d1.style.display = "none";
@@ -26,6 +28,7 @@ togg1.addEventListener("click", () => {
       d6.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg2.addEventListener("click", () => {
@@ -40,6 +43,7 @@ togg2.addEventListener("click", () => {
       d6.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg3.addEventListener("click", () => {
@@ -54,6 +58,7 @@ togg3.addEventListener("click", () => {
       d6.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg4.addEventListener("click", () => {
@@ -68,6 +73,7 @@ togg4.addEventListener("click", () => {
       d6.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg5.addEventListener("click", () => {
@@ -82,6 +88,7 @@ togg5.addEventListener("click", () => {
       d6.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg6.addEventListener("click", () => {
@@ -96,6 +103,7 @@ togg6.addEventListener("click", () => {
       d5.style.display = "none";
       d7.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg7.addEventListener("click", () => {
@@ -110,6 +118,7 @@ togg7.addEventListener("click", () => {
       d5.style.display = "none";
       d6.style.display = "none";
       d8.style.display = "none";
+      d9.style.display = "none";
     }
   })
 togg8.addEventListener("click", () => {
@@ -124,5 +133,21 @@ togg8.addEventListener("click", () => {
       d5.style.display = "none";
       d6.style.display = "none";
       d7.style.display = "none";
+      d9.style.display = "none";
+    }
+  })
+  togg9.addEventListener("click", () => {
+    if(getComputedStyle(d9).display != "none"){
+      d9.style.display = "none";
+    } else {
+      d9.style.display = "block";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
     }
   })

@@ -2,335 +2,441 @@
 	font-family: "Futura";
 	src: url("fonts/Futura.ttf");
 }
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 @font-face {
 	font-family: "Trebuchet MS";
 	src: url("fonts/Trebuchet.ttf");
 }
+
 /*HEADER*/
-header{
+header {
 	background: black;
 }
-footer{
+
+footer {
 	background: black;
 	padding-top: 30px;
-	padding-bottom : 30px;
+	padding-bottom: 30px;
 }
-.active{
+
+.active {
 	background-color: #45d6ab;
 }
 
-.logo{
-	width:50%;
+.logo {
+	width: 50%;
 }
-.logopad{
+
+.logopad {
 	padding-left: 125px;
 	padding-top: 30px;
-	padding-bottom : 30px;
+	padding-bottom: 30px;
 }
-.logo2{
-	width:30%;
+
+.logo2 {
+	width: 30%;
 }
-:root{
+
+:root {
 	--navheight: 30px;
 }
-.menu{
-	display:flex;
+
+.menu {
+	display: flex;
 	justify-content: space-between;
 }
+
 nav {
-	font-family:'Trebuchet MS';
+	font-family: 'Trebuchet MS';
 	font-weight: bold;
 }
-.navbar{
-	display:flex;
+
+.navbar {
+	display: flex;
 	padding-right: 75px;
 }
-.navbar a{
+
+.navbar a {
 	text-decoration: none;
-	color:white;
+	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 50px;
 	font-size: 20px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
 	color: rgb(240, 195, 0);
 }
-.maisaled{    
+
+.maisaled {
 	padding-top: 50px;
 	position: relative;
 	display: inline-block;
 }
-  .content {
+
+.content {
 	display: none;
 	position: absolute;
 	background-color: black;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
-  }
-  .content a {
+}
+
+.content a {
 	color: white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-  }
-  .maisaled:hover .content {display: block;}
-.navbar2{
-	display:flex;
+}
+
+.maisaled:hover .content {
+	display: block;
+}
+
+.navbar2 {
+	display: flex;
 	padding-right: 75px;
 }
-.navbar2 .nope{
+
+.navbar2 .nope {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.navbar2 a{
+
+.navbar2 a {
 	text-decoration: none;
-	color:white;
+	color: white;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 50px;
 	font-size: 15px;
 }
-.navbar2 a:hover{
+
+.navbar2 a:hover {
 	color: rgb(240, 195, 0);
 }
-.flèche{
+
+.flèche {
 	text-align: center;
 }
+
 /*BODY*/
-body{
+body {
 	font-family: "Futura", serif;
 }
-body,ul{
+
+body,
+ul {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(27,29,31);
+	background-color: rgb(27, 29, 31);
 }
-.slide1{
-	display:flex;
+
+.slide1 {
+	display: flex;
 	justify-content: space-between;
-	background: linear-gradient(to right,rgb(20, 52, 164),rgb(100, 149, 237));
+	background: linear-gradient(to right, rgb(20, 52, 164), rgb(100, 149, 237));
 	padding-top: 75px;
 	padding-bottom: 150px;
 	padding-left: 80px;
 	padding-right: 80px;
 }
-.banniereperso{
-	display:flex;
+
+.banniereperso {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(20, 52, 164),rgb(100, 149, 237));
+	background: linear-gradient(to right, rgb(20, 52, 164), rgb(100, 149, 237));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.banniereperso h1{
+
+.banniereperso h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.bannierepouv{
-	display:flex;
+
+.bannierepouv {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(145, 65, 1),rgb(240, 243, 50));
+	background: linear-gradient(to right, rgb(145, 65, 1), rgb(240, 243, 50));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.bannierepouv h1{
+
+.bannierepouv h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.bannierechap{
-	display:flex;
+
+.bannierespecies {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(7, 73, 5),rgb(34, 233, 34));
+	background: linear-gradient(to right, rgb(68, 1, 145), rgb(227, 50, 243));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.bannierechap h1{
+
+.bannierespecies h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.bannierecs{
-	display:flex;
+
+.bannierechrono {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(105, 11, 11),rgb(204, 23, 23));
+	background: linear-gradient(to right, rgb(1, 145, 102), rgb(127, 243, 50));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.bannierecs h1{
+
+.bannierechrono h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.banniereepoque{
-	display:flex;
+
+.bannierelieux {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(96, 28, 136),rgb(167, 131, 224));
+	background: linear-gradient(to right, rgb(1, 3, 145), rgb(50, 150, 243));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.banniereepoque h1{
+
+.bannierelieux h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.bannieregroupe{
-	display:flex;
+
+.bannierechap {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,#BF55EC,#BE90D4);
-	padding-bottom: 25px;
-	letter-spacing: 4px;
-	margin-top:150px;
-}
-.bannieregroupe h1{
-	font-size: 38px;
-	padding-top:25px;
-	color:white;
-}
-.bannieregroupe2{
-	display:flex;
-	justify-content: center;
-	background: linear-gradient(to right,#BF55EC,#BE90D4);
+	background: linear-gradient(to right, rgb(7, 73, 5), rgb(34, 233, 34));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.bannieregroupe2 h1{
+
+.bannierechap h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.banniereconst{
-	display:flex;
+
+.bannierecs {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,#F9690E,#F5D76E);
-	padding-bottom: 25px;
-	letter-spacing: 4px;
-	margin-top:150px;
-}
-.banniereconst h1{
-	font-size: 38px;
-	padding-top:25px;
-	color:white;
-}
-.bannierewiki{
-	display:flex;
-	justify-content: center;
-	background: linear-gradient(to right,green,lime);
+	background: linear-gradient(to right, rgb(105, 11, 11), rgb(204, 23, 23));
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
-.bannierewiki h1{
+
+.bannierecs h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.slide1 h1{
+
+.banniereepoque {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, rgb(96, 28, 136), rgb(167, 131, 224));
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+.banniereepoque h1 {
 	font-size: 38px;
-	padding-top:75px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.slide1 p{
-	font-size:28px;
+
+.bannieregroupe {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #BF55EC, #BE90D4);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+	margin-top: 150px;
+}
+
+.bannieregroupe h1 {
+	font-size: 38px;
+	padding-top: 25px;
+	color: white;
+}
+
+.bannieregroupe2 {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #BF55EC, #BE90D4);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+.bannieregroupe2 h1 {
+	font-size: 38px;
+	padding-top: 25px;
+	color: white;
+}
+
+.banniereconst {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #F9690E, #F5D76E);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+	margin-top: 150px;
+}
+
+.banniereconst h1 {
+	font-size: 38px;
+	padding-top: 25px;
+	color: white;
+}
+
+.bannierewiki {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, green, lime);
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+.bannierewiki h1 {
+	font-size: 38px;
+	padding-top: 25px;
+	color: white;
+}
+
+.slide1 h1 {
+	font-size: 38px;
+	padding-top: 75px;
+	color: white;
+}
+
+.slide1 p {
+	font-size: 28px;
 	margin-right: 450px;
-	color:white;
+	color: white;
 }
-.slide3{
-	display:flex;
+
+.slide3 {
+	display: flex;
 	justify-content: space-between;
-	background: linear-gradient(to right,rgb(6, 24, 78),rgb(123, 135, 167));
+	background: linear-gradient(to right, rgb(6, 24, 78), rgb(123, 135, 167));
 	padding-top: 75px;
 	padding-bottom: 150px;
 	padding-left: 80px;
 	padding-right: 80px;
 }
-.slide3 h1{
+
+.slide3 h1 {
 	font-size: 38px;
-	padding-top:25px;
-	color:white;
+	padding-top: 25px;
+	color: white;
 }
-.slide3 p{
-	font-size:28px;
+
+.slide3 p {
+	font-size: 28px;
 	margin-right: 450px;
-	color:white;
+	color: white;
 }
-.couv2{
+
+.couv2 {
 	max-width: 400px;
-	padding-right:150px;
-	filter:drop-shadow(-30px 30px 4px rgba(0,0,0,0.2));
+	padding-right: 150px;
+	filter: drop-shadow(-30px 30px 4px rgba(0, 0, 0, 0.2));
 }
-.couv{
+
+.couv {
 	max-width: 400px;
-	padding-right:150px;
-	filter:drop-shadow(30px -30px 4px rgba(0,0,0,0.2));
+	padding-right: 150px;
+	filter: drop-shadow(30px -30px 4px rgba(0, 0, 0, 0.2));
 }
-.couv3{
-	padding-top:75px;
+
+.couv3 {
+	padding-top: 75px;
 	max-width: 400px;
-	padding-right:150px;
-	filter:drop-shadow(30px -30px 4px rgba(0,0,0,0.2));
+	padding-right: 150px;
+	filter: drop-shadow(30px -30px 4px rgba(0, 0, 0, 0.2));
 }
-.lireinfos{
+
+.lireinfos {
 	background-color: darkred;
 	box-align: center;
 	text-align: center;
 	border: solid crimson;
 	width: 180px;
 	margin-top: 50px;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-right: 20px;
 	padding-left: 20px;
 	border-radius: 10px;
 	margin-bottom: 80px;
-	color:white;
+	color: white;
 	font-size: 25px;
 	text-decoration: none;
 }
-.aled{
+
+.aled {
 	padding-bottom: 20px;
 }
-.lireinfos:hover{
-	color:rgb(240, 195, 0);
+
+.lireinfos:hover {
+	color: rgb(240, 195, 0);
 	background-color: crimson;
 	border: solid darkred;
 }
-.part2{
+
+.part2 {
 	text-align: right;
 }
-.slide2{
-	display:flex;
+
+.slide2 {
+	display: flex;
 	justify-content: space-between;
-	background: linear-gradient(to right,rgb(102, 2, 252),rgb(220, 127, 236));
+	background: linear-gradient(to right, rgb(102, 2, 252), rgb(220, 127, 236));
 	padding-top: 75px;
 	padding-bottom: 150px;
 	padding-left: 80px;
 	padding-right: 80px;
 }
-.slide2 h1{
+
+.slide2 h1 {
 	font-size: 38px;
-	padding-top:30px;
+	padding-top: 30px;
 }
-.slide2 p{
-	font-size:28px;
+
+.slide2 p {
+	font-size: 28px;
 	margin-left: 450px;
 }
-.corpswiki{
-	display:flex;
+
+.corpswiki {
+	display: flex;
 	justify-content: space-between;
-	background: rgb(27,29,31);
+	background: rgb(27, 29, 31);
 	padding-top: 75px;
 	padding-bottom: 150px;
 	padding-left: 80px;
 	padding-right: 80px;
 }
-.disamB{
+
+.disamB {
 	border: solid 2px white;
+	border-radius: 10px;
 	background-color: #232b2b;
 	text-decoration: none;
-	color:white;
+	color: white;
 	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -339,516 +445,702 @@ body,ul{
 	font-family: "Futura";
 	letter-spacing: 1px;
 }
-.disamB:hover{
-	color:darkred;
+
+.disamB:hover {
+	color: darkred;
 	background-color: rgb(240, 195, 0);
 	cursor: pointer;
 }
-.disam1{
-	display:block;
-}
-.disam2{
-	display:none;
-}
-.disam3{
-	display:none;
-}
-.disam4{
-	display:none;
-}
-.disam5{
-	display:none;
-}
-.disam6{
-	display:none;
-}
-.disam7{
-	display:none;
-}
-.disam8{
-	display:none;
-}
-.wiki .chemin{
-	color:grey;
+
+.disam1 {
+	display: block;
 }
 
-.personnage{
+.disam2 {
+	display: none;
+}
+
+.disam3 {
+	display: none;
+}
+
+.disam4 {
+	display: none;
+}
+
+.disam5 {
+	display: none;
+}
+
+.disam6 {
+	display: none;
+}
+
+.disam7 {
+	display: none;
+}
+
+.disam8 {
+	display: none;
+}
+
+.disam9 {
+	display: none;
+}
+
+.wiki .chemin {
+	color: grey;
+}
+
+.wiki2 .chemin {
+	color: grey;
+}
+.imagepls img{
+	width:120px;
+	margin-left: 120px;
+}
+.personnage {
 	font-size: 35px;
+	border-radius: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 	font-family: "Futura";
+	transition: transform .4s;
 }
-.personnage p{
-	margin:10px;
+.personnage img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.personnage p {
+	margin: 10px;
 	font-family: "Futura";
 }
-.personnage a{
+
+.personnage a {
 	text-decoration: none;
-	color:white;
+	color: white;
 	font-family: "Futura";
 }
-.persochap{
+
+.persochap {
 	font-family: "Futura";
-	color:white;
+	color: white;
 	text-decoration: none;
 }
-.details{
+
+.details {
 	font-size: 15px;
-	color:lightskyblue;
+	color: lightskyblue;
 }
-.personnage a:hover{
-	color:rgb(240, 195, 0);
+
+.personnage a:hover {
+	color: rgb(240, 195, 0);
 }
-.personnage:hover{
+
+.personnage:hover {
 	background-color: #232b2b;
+	transform: scale(1.08);
 }
-.personnage a:hover  .details{
-	color:rgb(240, 195, 0);
+
+.personnage a:hover .details {
+	color: rgb(240, 195, 0);
 }
-.groupe{
-	border:solid white 3px;
+
+.groupe {
+	border: solid white 3px;
 	font-size: 35px;
 	text-align: center;
 }
-.groupe a{
+
+.groupe a {
 	text-decoration: none;
-	color:white;
+	color: white;
 }
-.groupe a:hover{
-	color:rgb(240, 195, 0);
+
+.groupe a:hover {
+	color: rgb(240, 195, 0);
 }
-.groupes{
+
+.groupes {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:75px;
-	padding-bottom:25px;
-	display:flex;
+	padding-top: 75px;
+	padding-bottom: 25px;
+	display: flex;
 	justify-content: space-between;
 }
-.constellations img{
+
+.constellations img {
 	width: 200px;
 }
-.constellation{
-	border:solid white 3px;
+
+.imagepls {
+	display: flex;
+	align-items: left;
+}
+
+.imagepls .chara {
+	border: 5px solid rgb(22, 21, 21);
+}
+
+.imagepls .trivia {
+	width: 300px;
+	border: 5px solid rgb(22, 21, 21);
+	margin-left: 70px;
+}
+
+.chara {
+	max-width: 150px;
+}
+
+.constellation {
+	border: solid white 3px;
 	font-size: 35px;
 	text-align: center;
 }
-.constellation a{
+
+.constellation a {
 	text-decoration: none;
-	color:white;
+	color: white;
 }
-.constellation a:hover{
-	color:rgb(240, 195, 0);
+
+.constellation a:hover {
+	color: rgb(240, 195, 0);
 }
-.constellations{
+
+.constellations {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:75px;
-	padding-bottom:25px;
-	display:flex;
+	padding-top: 75px;
+	padding-bottom: 25px;
+	display: flex;
 	justify-content: space-between;
 }
-.groupes img{
+
+.groupes img {
 	width: 200px;
 }
-.mais{
-	display:flex;
+
+.mais {
+	display: flex;
 }
-.personnages{
+
+.personnages {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:15px;
-	padding-bottom:25px;
-	display:flex;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	display: flex;
 	justify-content: center;
 }
-.Bdisam{
+
+.Bdisam {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:15px;
-	padding-bottom:25px;
-	display:flex;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	display: flex;
 	justify-content: center;
 }
-.groupepres{
+
+.groupepres {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:75px;
-	padding-bottom:25px;
-	display:flex;
+	padding-top: 75px;
+	padding-bottom: 25px;
+	display: flex;
 	justify-content: space-between;
 	font-size: 25px;
 }
-.contenuwikigroupe{
+
+.contenuwikigroupe {
 	padding-left: 300px;
 	padding-right: 300px;
-	padding-top:75px;
-	padding-bottom:25px;
-	color:white;
+	padding-top: 75px;
+	padding-bottom: 25px;
+	color: white;
 	font-size: 38px;
 	letter-spacing: 4px;
 }
-.groupepres img{
-	width:400px;
+
+.groupepres img {
+	width: 400px;
 	padding-left: 250px;
 	max-width: 400px;
 }
-.personnages img{
+
+.personnages img {
 	width: 300px;
 }
-.groupepres h4{
+
+.groupepres h4 {
 	font-size: 22px;
 }
-.groupepres h5{
+
+.groupepres h5 {
 	font-size: 22px;
 }
-.warning{
-	display:flex;
+
+.warning {
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(to right,red,rgb(217, 84, 84));
+	background: linear-gradient(to right, red, rgb(217, 84, 84));
 	letter-spacing: 2px;
 	font-size: 20px;
-	color:white;
+	color: white;
 	flex-direction: column;
 	padding-bottom: 25px;
 }
-.warning h1{
+
+.warning h1 {
 	font-size: 38px;
 	letter-spacing: 4px;
-	padding-top:25px;
+	padding-top: 25px;
 }
-.groupepres{
+
+.groupepres {
 	display: flex;
 	align-items: center;
-	color:white;
+	color: white;
 }
-.persopres{
+
+.persopres {
 	display: flex;
-	color:white;
+	color: white;
 	justify-content: center;
 }
-.infos{
-	display:flex;
+
+.infos {
+	display: flex;
 	align-items: center;
 }
-.infos h4{
-	padding-left:5px;
+
+.infos h4 {
+	padding-left: 5px;
 	font-weight: unset;
 	letter-spacing: 1px;
 }
-.infos h5{
-	padding-left:5px;
+
+.infos h5 {
+	padding-left: 5px;
 	letter-spacing: 2px;
 }
-.presgroupe{
+
+.presgroupe {
 	padding-right: 350px;
 }
-.imgperso img{
-	height:300px;
+
+.imgperso img {
+	height: 300px;
 }
 
 /*TO CHANGE (CHAR. TABLE)*/
 
-.asidelol{
-	float:right;
+.asidelol {
+	float: right;
 	padding-right: 250px;
 }
-.présentation table{
-    color:white;
+
+.présentation table {
+	color: white;
 	font-size: 22px;
-	background-color:#232b2b;
+	background-color: #232b2b;
 	width: 100%;
-	margin:none;
-	border:none;
+	margin: none;
+	border: none;
 }
-.présentation ul{
+
+.présentation ul {
 	background-color: #0d0d0d;
 }
+
 .présentation a {
-    color:#ADD8E6;
+	color: #ADD8E6;
 }
+
 .présentation a:hover {
-    color:rgb(240, 195, 0);
+	color: rgb(240, 195, 0);
 }
-.présentation img{
-	width:400px;
+
+.présentation img {
+	width: 400px;
 }
-.boutonannee{
-	cursor:pointer;
-    border:#0d172a;
-    background: linear-gradient(black, #232b2b, black);
-    padding-left:5px;
-    padding-right:5px;
+
+.boutonannee {
+	cursor: pointer;
+	border: #0d172a;
+	background: linear-gradient(black, #232b2b, black);
+	padding-left: 5px;
+	padding-right: 5px;
 }
-.annee a{
-	color:white;
+
+.annee a {
+	color: white;
 }
-.annee{
+
+.annee {
 	display: flex;
 	justify-content: center;
 }
-.bannierewikip{
-	display:flex;
+
+.bannierewikip {
+	display: flex;
 	justify-content: center;
-	background: linear-gradient(to right,rgb(0, 0, 0),rgb(235, 7, 7),rgb(0, 0, 0));
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(235, 7, 7), rgb(0, 0, 0));
 	letter-spacing: 1px;
-	margin:0;
+	margin: 0;
 }
-.bannierewikip h1{
-	color:white;
-	margin-top:5px;
-	margin-bottom:5px;
+
+.bannierewikip h1 {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-.quote{
+
+.quote {
 	background-color: #ecebeb;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-right: 165px;
-	font-size:23px;
+	font-size: 23px;
 	line-height: 1em;
 	border-left: 10px solid rgb(64, 66, 194);
 	margin-bottom: 20px;
 }
-.quote .source{
-	color:rgb(121, 5, 5);
-	font-size:20px;
+
+.quote .source {
+	color: rgb(121, 5, 5);
+	font-size: 20px;
 }
-.quote p{
-	color:black;
+
+.quote p {
+	color: black;
 	font-style: italic;
 }
-.epoques{
+
+.epoques {
 	border: solid 0px white;
 	background-color: #232b2b;
 	text-decoration: none;
-	color:white;
+	color: white;
 	font-size: 20px;
-	display:inline-block;
+	display: inline-block;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	width:50%;
-	margin:0px;
+	width: 50%;
+	margin: 0px;
 	font-family: "Futura";
 	letter-spacing: 1px;
 }
-.ongletsages{
-	display:flex;
+
+.ongletsages {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	max-width: 400px;
-	margin:0px;
+	margin: 0px;
 }
-.buttons{
-	display:flex;
+
+.buttons {
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width:100%;
+	width: 100%;
 }
-.epoques:hover{
-	color:darkred;
+
+.epoques:hover {
+	color: darkred;
 	background-color: rgb(240, 195, 0);
 	cursor: pointer;
 }
-.pouvoirs{
-	display:flex;
+
+.pouvoirs {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 18px;
 	text-align: center;
 }
-.pouvoirs section{
+
+.pouvoirs section {
 	padding-left: 12px;
 	padding-right: 12px;
 }
-.pouve{
-	display:flex;
+
+.pouve {
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-.wiki p{
-    font-family: Arial;
+
+.wiki p {
+	font-family: Arial;
 }
-.wiki .persochap{
+
+.wiki .persochap {
 	font-family: "Futura";
 }
-.wiki .personnage a:hover .persochap{
-	color:rgb(240, 195, 0);
+
+.wiki .personnage a:hover .persochap {
+	color: rgb(240, 195, 0);
 }
-.wiki .details{
+
+.wiki .details {
 	font-family: "Futura";
 }
-.wiki a{
-    text-decoration: none;
-	color:#add8e6;
+
+.wiki a {
+	text-decoration: none;
+	color: #add8e6;
 }
-.wiki a:hover{
-    color:rgb(240, 195, 0);
+
+.wiki a:hover {
+	color: rgb(240, 195, 0);
 }
-.wiki{
-    width:60%;
-    color:white;
-    font-size:120%;
+
+.wiki {
+	width: 60%;
+	color: white;
+	font-size: 120%;
 	padding-left: 250px;
 
 }
-.asidelol a{
+
+.wiki2 {
+	width: 60%;
+	color: white;
+	font-size: 120%;
+	margin-left: 400px;
+	padding-right: 10px;
+}
+
+.wiki2 p {
+	font-family: Arial;
+}
+
+.wiki2 .persochap {
+	font-family: "Futura";
+}
+
+.wiki2 .personnage a:hover .persochap {
+	color: rgb(240, 195, 0);
+}
+
+.wiki2 .details {
+	font-family: "Futura";
+}
+
+.wiki2 a {
+	text-decoration: none;
+	color: #add8e6;
+}
+
+.wiki2 a:hover {
+	color: rgb(240, 195, 0);
+}
+
+.asidelol a {
 	text-decoration: none;
 }
-.navigation{
-	display:flex;
+
+.navigation {
+	display: flex;
 	flex-direction: column;
 	border: solid 1px grey;
-	margin-top:10px;
+	margin-top: 10px;
 	margin-right: 800px;
 }
-.navigation h2{
+
+.navigation h2 {
 	text-align: center;
 }
-.sommaireB{
-	color:#add8e6;
+
+.sommaireB {
+	color: #add8e6;
 	background-color: #1b1d1f;
-	border:none;
+	border: none;
 }
-.sommaireB:hover{
-	color:rgb(240, 195, 0);
-	cursor:pointer;
+
+.sommaireB:hover {
+	color: rgb(240, 195, 0);
+	cursor: pointer;
 }
-.sommaire{
+
+.sommaire {
 	display: flex;
 	text-align: left;
 	margin-left: 0px;
 }
-.sous-titre{
+
+.sous-titre {
 	font-size: 140%;
 	padding-top: 5px;
 }
-.biologie h2{
-	color:white;
+
+.biologie h2 {
+	color: white;
 	text-align: center;
-	background: linear-gradient(to right,rgb(0, 0, 0),rgb(235, 7, 7),rgb(0, 0, 0));
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(235, 7, 7), rgb(0, 0, 0));
 	padding-top: 5px;
 	padding-bottom: 5px;
 	letter-spacing: 2px;
-	margin:0px;
-	margin-top:20px;
+	margin: 0px;
+	margin-top: 20px;
 }
-.présentation table td{
-	border:none;
-	margin:0px;
+
+.présentation table td {
+	border: none;
+	margin: 0px;
 }
-.présentation table .light{
-	width:65%;
+
+.présentation table .light {
+	width: 65%;
 	padding-left: 5px;
 	background-color: #667a7a;
 }
-.présentation table .light2{
+
+.présentation table .light2 {
 	padding-left: 5px;
-	width:79%;
+	width: 79%;
 	background-color: #667a7a;
 }
-.présentation table img{
-	width:80px;
+
+.présentation table img {
+	width: 80px;
 	padding-top: 3px;
-	margin:0px;
+	margin: 0px;
 }
-.persopresentation h2{
+
+.persopresentation h2 {
 	color: #c03538;
-    padding-left: 8px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    line-height: 1em;
-    border-bottom: 2px solid #C12025;
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	border-bottom: 2px solid #C12025;
 	border-left: 10px solid #C12025;
-    margin-bottom: 20px;
-    font-size: 30px;
+	margin-bottom: 20px;
+	font-size: 30px;
 }
-.persopresentation h3{
+
+.wiki2 .persopresentation h2 {
+	color: #eb2c25;
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	border-bottom: 2px solid #d81b21;
+	border-left: 10px solid #d81b21;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.persopresentation h3 {
 	color: #1adb44;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    line-height: 1em;
-    border-bottom: 2px solid #1adb44;
-    margin-bottom: 20px;
-    font-size: 26px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	border-bottom: 2px solid #1adb44;
+	margin-bottom: 20px;
+	font-size: 26px;
 }
-.persopresentation h4{
+
+.persopresentation h4 {
 	color: white;
 	padding-left: 25px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    line-height: 1em;
-    margin-bottom: 20px;
-    font-size: 26px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	margin-bottom: 20px;
+	font-size: 26px;
 }
-.entourage tr:hover{
-	color:darkred;
+
+.entourage tr:hover {
+	color: darkred;
 	background-color: rgb(240, 195, 0);
-	cursor: pointer;
 }
-.entourage tr:hover .light2{
+
+.entourage tr:hover .light2 {
 	background-color: rgb(240, 195, 0);
-	cursor:default;
+	cursor: default;
 }
-.entourage tr:hover .light2 a{
-	color:darkred;
+
+.entourage tr:hover .light2 a {
+	color: darkred;
 }
-.entourage tr:hover .light2 a:hover{
-	color:rgb(0, 139, 116);
+
+.entourage tr:hover .light2 a:hover {
+	color: rgb(0, 139, 116);
 }
-.ongletsages img{
-	border: 1px, solid, #232b2b;
-}
-.entourage .light2{
+
+.entourage .light2 {
 	border-left: solid 4px darkred;
 }
-.barres{
-	color:grey;
+
+.entourage td:not(.light2) img {
+	vertical-align: bottom;
+	padding:0px;
+	margin:0px;
+}
+
+.barres {
+	color: grey;
 	padding-right: 10px;
 }
-.wikisize{
+
+.wikisize {
 	margin-right: 140px;
+	padding-right: 10px;
 }
-.tba{
+
+.tba {
 	font-size: 25px;
 }
-.persopresentation .spec{
+
+.persopresentation .spec {
 	color: #9e72d8;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    line-height: 1em;
-    border-bottom: 2px solid #9e72d8;
-    margin-bottom: 20px;
-    font-size: 26px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	border-bottom: 2px solid #9e72d8;
+	margin-bottom: 20px;
+	font-size: 26px;
 }
-.end{
-	display:flex;
+
+.end {
+	display: flex;
 	padding-bottom: 50px;
 }
-.ongletsages img{
+
+.ongletsages img {
 	border: solid 3px rgb(22, 21, 21);
 }
-.infos table{
+
+.infos table {
 	border: solid 3px rgb(22, 21, 21);
 }
-.entourage table{
+
+.entourage table {
 	border: solid 3px rgb(22, 21, 21);
 }
-.date{
+
+.date {
 	color: white;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    line-height: 1em;
-    margin-bottom: 20px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	line-height: 1em;
+	margin-bottom: 20px;
 	font-size: 35px;
 }
-.chapitres{
-	display:flex;
+
+.chapitres {
+	display: flex;
 	justify-content: space-between;
 	background-color: #0d0d0d;
 	padding-left: 15px;
@@ -856,45 +1148,107 @@ body,ul{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.chapitres a{
-	color:white;
+
+.chapitres a {
+	color: white;
 }
-.chapitres:hover{
-	color:darkred;
+
+.chapitres:hover {
+	color: darkred;
 	background-color: rgb(240, 195, 0);
 	border-left: solid 5px darkred;
 }
-.chapitres:hover a{
-	color:darkred;
+
+.chapitres:hover a {
+	color: darkred;
 }
-.chapitres:hover a:hover{
-	color:rgb(0, 139, 116);
+
+.chapitres:hover a:hover {
+	color: rgb(0, 139, 116);
 }
-.chapitres table{
-	width:100%;
+
+.chapitres table {
+	width: 100%;
 }
-.chapitres table .mid{
+
+.chapitres table .mid {
 	text-align: center;
 }
-.chapitres table .right{
+
+.chapitres table .right {
 	text-align: right;
 }
-.chapitres table td{
+
+.chapitres table td {
 	width: 33%;
 }
-.fakea{
+
+.fakea {
 	background: none;
-	color:#add8e6;
-	font-family:"Futura";
-	border:none;
+	color: #add8e6;
+	font-family: "Futura";
+	border: none;
 	font-size: 20px;
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 }
-.fakea:hover{
-	cursor:pointer;
-	color:rgb(240, 195, 0);
+
+.fakea:hover {
+	cursor: pointer;
+	color: rgb(240, 195, 0);
 }
-.infos a{
-	color:white;
+
+.infos a {
+	color: white;
+}
+
+.contenu {
+	position: absolute;
+	opacity: 0;
+}
+
+.container-onglets {
+	display: flex;
+}
+
+.onglets {
+	border: solid 0px white;
+	background-color: #232b2b;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 50%;
+	margin: 0px;
+	font-family: "Futura";
+	letter-spacing: 1px;
+}
+
+.onglets:hover {
+	color: darkred;
+	background-color: rgb(240, 195, 0);
+	cursor: pointer;
+}
+
+.activeo {
+	background: rgb(31, 74, 153);
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.activecontenu {
+	animation: fade 0.0s forwards;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
